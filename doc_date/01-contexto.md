@@ -7,6 +7,8 @@ Marco M1. Copiem para `entregas/01-contexto.md`.
 ## Contexto 
 Em um parágrafo: o que é o Tech Trivia e qual o objetivo deste banco.
 
+O TheraQ é um projeto que tem como objetivo ensinar de forma dinamica e facil á pessoas da area tech ou não, a partir do acidente do Therac-25 ocorrido entre os anos de 1985 e 1987,  a como é perigoso confiar excessivamente em software sem mecanismos físicos de segurança, principalmente quando é uma maquina que opera em prol de ajudar na saude das pessoas. O quiz tem as funcoes de o usuario personalizar a quantidade e dificuldade das perguntas que ele irá responder, tendo em cada pergunta opcoes de resposta de A a D tendo apenas uma letra como resposta correta, e todas as perguntas serao criadas aleatoriamente a partir  de uma IA, e após ser criada ela irá automaticamente para o Banco de Dados, com a pergunta em si e a resposta dela e o nivel de dificuldade da mesma, terá um Banco para guardar a pontuacao total de cada jogador por partida separado por dificudade e mostrar um ranking a partir do jogador com maior pontuacao á menor pontuacao
+
 ## Escopo 
 Listem só o que o banco faz e o que fica de fora.
 
