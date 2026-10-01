@@ -4,9 +4,11 @@ Marco M1. Copiem para `entregas/01-contexto.md`.
 
 ## 1. Introdução e contexto
 
+## Contexto 
 Em um parágrafo: o que é o Tech Trivia e qual o objetivo deste banco.
 
-Escopo. Listem só o que o banco faz e o que fica de fora.
+## Escopo 
+Listem só o que o banco faz e o que fica de fora.
 
 | O banco faz | O banco não faz |
 | --- | --- |
