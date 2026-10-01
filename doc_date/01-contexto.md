@@ -15,7 +15,6 @@ Listem só o que o banco faz e o que fica de fora.
 | Armazena dados do usuário ao se cadastrarem | Exclui os dados de cadastro |
 | Guarda as respostas do quiz até mostrar o resultado | Quarda as respostas do quiz por tempo indeterminado |
 | Guarda a pontuação do usuário | Gera as perguntas automaticamente
-|        | 
 
 Usuários. Quem usa o sistema e o que cada um faz com os dados. Não criem tabela de usuário se nenhum requisito pedir cadastro, senha ou sessão.
 
