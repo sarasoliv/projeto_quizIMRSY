@@ -10,7 +10,7 @@ Escopo. Listem só o que o banco faz e o que fica de fora.
 
 | O banco faz | O banco não faz |
 | --- | --- |
-| | |
+| teste | |
 
 Usuários. Quem usa o sistema e o que cada um faz com os dados. Não criem tabela de usuário se nenhum requisito pedir cadastro, senha ou sessão.
 
