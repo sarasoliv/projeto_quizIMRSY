@@ -12,9 +12,11 @@ Listem só o que o banco faz e o que fica de fora.
 
 | O banco faz | O banco não faz |
 | --- | --- |
-| Armazena dados do usuário ao se cadastrarem | Exclui os dados de cadastro |
+| Armazena dados do usuário ao se cadastrarem | Exclui os dados de cadastro automaticamente |
+| Permite alteração das informações do perfil | Gera uma senha única no primeiro login
 | Guarda as respostas do quiz até mostrar o resultado | Quarda as respostas do quiz por tempo indeterminado |
 | Guarda a pontuação do usuário | Gera as perguntas automaticamente
+| Calcula a pontuação total ao encerrar as perguntas | Armazena os dados de todas as questões de uma vez 
 
 Usuários. Quem usa o sistema e o que cada um faz com os dados. Não criem tabela de usuário se nenhum requisito pedir cadastro, senha ou sessão.
 
@@ -22,6 +24,7 @@ Usuários. Quem usa o sistema e o que cada um faz com os dados. Não criem tabel
 | --- | --- |
 | Jogador | Responde as perguntas do quiz |
 | Desenvolvedor | Quem cadastra as perguntas do quiz |
+
 
 ## 2. Minimundo
 
