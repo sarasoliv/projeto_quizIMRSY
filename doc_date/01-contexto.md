@@ -15,7 +15,7 @@ Escopo. Listem só o que o banco faz e o que fica de fora.
 Usuários. Quem usa o sistema e o que cada um faz com os dados. Não criem tabela de usuário se nenhum requisito pedir cadastro, senha ou sessão.
 
 | Usuário | O que faz |
-| --- | --- |
+| teste | --- |
 | Jogador | |
 | Quem cadastra perguntas | |
 
