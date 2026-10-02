@@ -1,6 +1,6 @@
 # 💻 TheraQ 
 ----
-Projeto acadêmico ⭐ 
+<small> ⭐Projeto acadêmico </small>
 ----
 ## 📖 Sobre o Projeto
 O **TheraQ** é um site de quiz interativo voltado para tecnologia, com foco em sistemas críticos.  
@@ -69,6 +69,14 @@ Navegue pelas páginas
 Responda às perguntas do quiz
 Confirme se os dados estão sendo enviados e recebidos corretamente
 
+----
+
+### 👩‍💻Desenvolvedores
+
+- Isabella de Almeida Santos
+- Rodrygo Schadeck Gomes
+- Sara dos Santos de Oliveira
+- Yasmin Santos de Lima
 
 
 
