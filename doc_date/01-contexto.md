@@ -7,25 +7,32 @@ Marco M1. Copiem para `entregas/01-contexto.md`.
 ## Contexto 
 Em um parágrafo: o que é o Tech Trivia e qual o objetivo deste banco.
 
-O TheraQ é um projeto que tem como objetivo ensinar de forma dinamica e facil á pessoas da area tech ou não, a partir do acidente do Therac-25 ocorrido entre os anos de 1985 e 1987,  a como é perigoso confiar excessivamente em software sem mecanismos físicos de segurança, principalmente quando é uma maquina que opera em prol de ajudar na saude das pessoas. O quiz tem as funcoes de o usuario personalizar a quantidade e dificuldade das perguntas que ele irá responder, tendo em cada pergunta opcoes de resposta de A a D tendo apenas uma letra como resposta correta, e todas as perguntas serao criadas aleatoriamente a partir  de uma IA, e após ser criada ela irá automaticamente para o Banco de Dados, com a pergunta em si e a resposta dela e o nivel de dificuldade da mesma, terá um Banco para guardar a pontuacao total de cada jogador por partida separado por dificudade e mostrar um ranking a partir do jogador com maior pontuacao á menor pontuacao
+O TheraQ é um projeto que tem como objetivo ensinar, de forma dinâmica e fácil, as pessoas da área de tecnologia ou não, a partir do acidente do Therac-25, ocorrido entre os anos de 1985 e 1987, como é perigoso confiar excessivamente em softwares sem mecanismos físicos de segurança, principalmente quando se trata de uma máquina que opera em prol da saúde das pessoas.
+
+O quiz tem como funções permitir que o usuário personalize a quantidade e a dificuldade das perguntas que irá responder. Cada pergunta terá quatro opções de resposta, de A a D, sendo apenas uma delas a correta. Parte das perguntas serão criadas aleatoriamente por uma IA e, após serem geradas, serão automaticamente armazenadas no Banco de Dados, juntamente com a pergunta, sua respectiva resposta e seu nível de dificuldade.
+
+Também haverá um Banco de Dados destinado ao armazenamento da pontuação total de cada jogador por partida, com as pontuações separadas por nível de dificuldade. A partir desses dados, será possível gerar um ranking, organizado do jogador com maior pontuação para o jogador com menor pontuação.
+
 
 ## Escopo 
 Listem só o que o banco faz e o que fica de fora.
 
 | O banco faz | O banco não faz |
 | --- | --- |
-| Armazena dados do usuário ao se cadastrarem | Exclui os dados de cadastro automaticamente |
-| Permite alteração das informações do perfil | Gera uma senha única no primeiro login
-| Guarda as respostas do quiz até mostrar o resultado | Quarda as respostas do quiz por tempo indeterminado |
-| Guarda a pontuação do usuário | Gera as perguntas automaticamente
-| Calcula a pontuação total ao encerrar as perguntas | Armazena os dados de todas as questões de uma vez 
+| Armazena dados do usuário ao se cadastrarem | Exclui os dados de cadastro |
+| Bloqueia alteração das informações do perfil | Armazena credênciais de login |
+| Guarda as perguntas e respostas automaticamente | Guarda as respostas do quiz por tempo ilimitado |
+| Guarda a pontuação do usuário | salva usernames iguais. |
+| Ranqueia de forma decrescente a pontuação total do usuário | Armazena os dados de todas as questões de uma vez.|
 
 Usuários. Quem usa o sistema e o que cada um faz com os dados. Não criem tabela de usuário se nenhum requisito pedir cadastro, senha ou sessão.
 
 | Usuário | O que faz |
 | --- | --- |
-| Jogador | Responde as perguntas do quiz |
-| Desenvolvedor | Quem cadastra as perguntas do quiz |
+| Jogador | Responde as perguntas do quiz e personaliza a dificuldade e quantas perguntas seu quiz tem |
+| Desenvolvedor | Quem gerência o servidor do quiz e faz atualizações conforme necessidade a partir de sugestões de usuários. |
+| Tester | Faz o teste de mesa virtual e reporta bugs. |
+| Analista de informações | Confere a veracidade das perguntas e respostas. |
 
 
 ## 2. Minimundo
