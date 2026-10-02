@@ -39,6 +39,10 @@ Usuários. Quem usa o sistema e o que cada um faz com os dados. Não criem tabel
 
 Um ou dois parágrafos, na voz de quem encomenda o sistema. É deste texto que saem as entidades e as regras. Cubram pergunta, categoria, fonte, publicador, idioma e alternativas, inclusive a possibilidade de mais de duas alternativas no futuro.
 
+Somos estudantes da área de tecnologia e gostaríamos que você criasse um quiz sobre o acidente do Therac-25, ocorrido entre os anos de 1985 e 1987. No quiz, quero que seja possível escolher a dificuldade e a quantidade de perguntas que o usuário deseja responder. As perguntas serão criadas automaticamente por uma IA, com base em fontes previamente definidas e confiáveis. Todas as perguntas deverão ter alternativas de A a D, contendo apenas uma resposta correta. Após o usuário selecionar e enviar sua resposta, deverá ser mostrada a resposta correta juntamente com uma explicação do motivo pelo qual ela está correta. Também quero um ranking para mostrar as pessoas que mais acertaram as perguntas, sem permitir o cadastro de usuários com o mesmo nome de usuário (username).
+
+Gostaria que o quiz tivesse recursos de acessibilidade e sons para quando o usuário acertar ou errar, semelhantes aos utilizados em programas de perguntas e respostas, como o antigo jogo de perguntas do Silvio Santos. A interface deve ser intuitiva, permitindo que o usuário tenha clareza sobre o que está fazendo em cada etapa do quiz. Além disso, quero que haja uma limitação das fontes utilizadas pela IA responsável pela criação das perguntas, permitindo apenas fontes confiáveis e previamente definidas como referência, evitando fontes suspeitas ou informações sem comprovação para reduzir a possibilidade de erros na criação das perguntas. Para o desenvolvimento do projeto, deverão ser utilizadas apenas as linguagens **JavaScript (JS), C, HTML e CSS**, sem a utilização de frameworks. O banco de dados deverá utilizar **PostgreSQL como SGBD**, sendo responsável pelo armazenamento das informações necessárias para o funcionamento do sistema, como usuários, perguntas, respostas, pontuações e ranking.
+
 > 
 
 ## 3. Requisitos e regras de negócio
