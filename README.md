@@ -1,6 +1,6 @@
 # 💻 TheraQ 
 ----
-<small> Projeto acadêmico⭐ </small>
+<small> ***Projeto acadêmico⭐*** </small>
 
 ----
 ## 📖 Sobre o Projeto
