@@ -50,32 +50,18 @@ Aguarde a instalação completar
 
 --
 ### 3. Configurar chave da API
-Segurança
 Adicione a chave para comunicação segura com o Back-end.
-
 Crie um arquivo .env na raiz do projeto
-
 Adicione: API_KEY=sua_chave_aqui
-
 No código, use: const apiKey = process.env.API_KEY;
 
 --
-### 4. Executar servidor local
-Rodando
-Inicie o projeto para testes em ambiente local.
+
+###4. Executar servidor local
+
 Execute: npm start
 Aguarde o servidor inicializar
 Abra o navegador em http://localhost:3000
---
-### 5. Testar funcionalidades
-Verifique se o quiz e a integração estão funcionando.
-Navegue pelas páginas
-Responda às perguntas do quiz
-Confirme se os dados estão sendo enviados e recebidos corretamente
-
-
-
-
 
 
 
