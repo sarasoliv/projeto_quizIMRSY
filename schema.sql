@@ -44,7 +44,10 @@ constraint respondida_usuario_fk FOREIGN KEY(usuario_id)
 	references Pontuacao(usuario_id)
 );
 
-
+create table Cadastro(
+	id_usuário	Serial PRIMARY KEY NOT NULL,
+	nome		varchar(50)
+);
 --------------------------------------------------------------------------------------------------------------------------------
 #current_timestamp é usado pra puxar automaticamente a data e hora do sistema(pc) em q o quiz estiver rodando
 
