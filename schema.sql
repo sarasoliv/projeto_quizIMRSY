@@ -44,6 +44,7 @@ constraint respondida_usuario_fk FOREIGN KEY(usuario_id)
 	references Pontuacao(usuario_id)
 );
 
+
 --------------------------------------------------------------------------------------------------------------------------------
 #current_timestamp é usado pra puxar automaticamente a data e hora do sistema(pc) em q o quiz estiver rodando
 
