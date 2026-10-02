@@ -44,7 +44,7 @@ constraint respondida_usuario_fk FOREIGN KEY(usuario_id)
 	references Pontuacao(usuario_id)
 );
 
-create table Cadastro(
+create table Cadastro_usuario(
 	id_usuário	Serial PRIMARY KEY NOT NULL,
 	nome		varchar(50)
 );
