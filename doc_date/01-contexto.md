@@ -59,12 +59,6 @@ Cada RD01–RD11 e cada RA01–RA07 entra numa linha. Não deixem código de for
 | RD03 | O sistema possui sistema de acessibilidade | Regra de Negócios |
 | RD04 | O banco de dados guarda a pontuação e o nome do usuário que a fez | Regra de Negócios |
 | RD05 | O cadastro será feito através do nome de usuário | Regra de Negócios |
-| RD06 |  | Regra de Negócios |
-| RD07 |  | Regra de Negócios |
-| RD08 |  | Regra de Negócios |
-| RD09 |  | Regra de Negócios |
-| RD10 |  | Regra de Negócios |
-| RD11 |  | Regra de Negócios |
 
 
 Não funcional inclui, no mínimo, o SGBD e a integridade (o que não pode duplicar nem ficar nulo).
