@@ -1,4 +1,6 @@
-# 🧩 TheraQ
+# 💻 TheraQ 
+----
+Projeto acadêmico ⭐ 
 ----
 ## 📖 Sobre o Projeto
 O **TheraQ** é um site de quiz interativo voltado para tecnologia, com foco em sistemas críticos.  
