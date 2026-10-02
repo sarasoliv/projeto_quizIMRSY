@@ -47,6 +47,24 @@ Cada RD01–RD11 e cada RA01–RA07 entra numa linha. Não deixem código de for
 
 | Código | Texto do requisito | Tipo |
 | --- | --- | --- |
-| | | funcional / não funcional / regra de negócio |
+| RA01 | O sistema permite o usuário se cadastrar. | Requisito funcional |
+| RA02 | É feita uma somatória da pontuação ao final de cada desafio. | Requisito funcional |
+| RA03 | Ao final do quiz é exibido as questões com erros e acertos. | Requisitos Funcionais |
+| RA01 | A IA do quiz gera as perguntas automaticamente a cada novo questionário aberto. | Requisito não funcional |
+| RA02 | O sistema gera 10 perguntas a cada questionário iniciado. | Requisito não funcional |
+| RA03 | Ao finalizar o questionário o sistema entrega a pontuação. | Requisito não funcional |
+| RA04 | É possível selecionar o nível de dificuldade, sendo fácil, médio e difícil. | Requisito não funcional |
+| RD01 | O sistema não armazena as respostas das questões após encerrar o quiz  | Regra de Negócios |
+| RD02 | A ia gera as perguntas aleatóriamente baseada em um contexto histórico| Regra de Negócios |
+| RD03 | O sistema possui sistema de acessibilidade | Regra de Negócios |
+| RD04 | O banco de dados guarda a pontuação e o nome do usuário que a fez | Regra de Negócios |
+| RD05 | O cadastro será feito através do nome de usuário | Regra de Negócios |
+| RD06 |  | Regra de Negócios |
+| RD07 |  | Regra de Negócios |
+| RD08 |  | Regra de Negócios |
+| RD09 |  | Regra de Negócios |
+| RD10 |  | Regra de Negócios |
+| RD11 |  | Regra de Negócios |
+
 
 Não funcional inclui, no mínimo, o SGBD e a integridade (o que não pode duplicar nem ficar nulo).
