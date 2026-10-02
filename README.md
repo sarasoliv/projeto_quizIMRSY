@@ -31,7 +31,6 @@ O desenvolvimento está sendo feito de forma colaborativa e dinâmica, com cada 
 - **Coordenação:** Acompanhamento geral para garantir que todas as partes se integrem corretamente.  
 
 ----
-
 ## 🚀 Passo a Passo para Executar o Projeto
 
 ### 1. Clonar o repositório
@@ -56,16 +55,17 @@ Adicione: API_KEY=sua_chave_aqui
 No código, use: const apiKey = process.env.API_KEY;
 
 --
-
-###4. Executar servidor local
-
+### 4. Executar servidor local
 Execute: npm start
 Aguarde o servidor inicializar
 Abra o navegador em http://localhost:3000
 
-
-
-
+--
+### 5. Testar funcionalidades
+Verifique se o quiz e a integração estão funcionando.
+Navegue pelas páginas
+Responda às perguntas do quiz
+Confirme se os dados estão sendo enviados e recebidos corretamente
 
 
 
