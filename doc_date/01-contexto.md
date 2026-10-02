@@ -5,7 +5,6 @@ Marco M1. Copiem para `entregas/01-contexto.md`.
 ## 1. Introdução e contexto
 
 ## Contexto 
-Em um parágrafo: o que é o Tech Trivia e qual o objetivo deste banco.
 
 O TheraQ é um projeto que tem como objetivo ensinar, de forma dinâmica e fácil, as pessoas da área de tecnologia ou não, a partir do acidente do Therac-25, ocorrido entre os anos de 1985 e 1987, como é perigoso confiar excessivamente em softwares sem mecanismos físicos de segurança, principalmente quando se trata de uma máquina que opera em prol da saúde das pessoas.
 
@@ -15,7 +14,6 @@ Também haverá um Banco de Dados destinado ao armazenamento da pontuação tota
 
 
 ## Escopo 
-Listem só o que o banco faz e o que fica de fora.
 
 | O banco faz | O banco não faz |
 | --- | --- |
@@ -25,7 +23,7 @@ Listem só o que o banco faz e o que fica de fora.
 | Guarda a pontuação do usuário | salva usernames iguais. |
 | Ranqueia de forma decrescente a pontuação total do usuário | Armazena os dados de todas as questões de uma vez.|
 
-Usuários. Quem usa o sistema e o que cada um faz com os dados. Não criem tabela de usuário se nenhum requisito pedir cadastro, senha ou sessão.
+
 
 | Usuário | O que faz |
 | --- | --- |
@@ -36,8 +34,6 @@ Usuários. Quem usa o sistema e o que cada um faz com os dados. Não criem tabel
 
 
 ## 2. Minimundo
-
-Um ou dois parágrafos, na voz de quem encomenda o sistema. É deste texto que saem as entidades e as regras. Cubram pergunta, categoria, fonte, publicador, idioma e alternativas, inclusive a possibilidade de mais de duas alternativas no futuro.
 
 Somos estudantes da área de tecnologia e gostaríamos que você criasse um quiz sobre o acidente do Therac-25, ocorrido entre os anos de 1985 e 1987. No quiz, quero que seja possível escolher a dificuldade e a quantidade de perguntas que o usuário deseja responder. As perguntas serão criadas automaticamente por uma IA, com base em fontes previamente definidas e confiáveis. Todas as perguntas deverão ter alternativas de A a D, contendo apenas uma resposta correta. Após o usuário selecionar e enviar sua resposta, deverá ser mostrada a resposta correta juntamente com uma explicação do motivo pelo qual ela está correta. Também quero um ranking para mostrar as pessoas que mais acertaram as perguntas, sem permitir o cadastro de usuários com o mesmo nome de usuário (username).
 
