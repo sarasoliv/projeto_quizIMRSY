@@ -1,13 +1,11 @@
-# projeto_TheraQ
-
 # 🧩 TheraQ
-
+##----
 ## 📖 Sobre o Projeto
 O **TheraQ** é um site de quiz interativo voltado para tecnologia, com foco em sistemas críticos.  
 Ele foi inspirado no caso **Therac-25**, mostrando como falhas de software, hardware e interface podem gerar consequências graves.  
 A ideia é transformar o aprendizado em uma experiência prática e envolvente, conscientizando sobre a importância da **segurança no desenvolvimento de sistemas**.
 
----
+----
 
 ## 🎯 Objetivo
 O quiz busca explicar de forma **simples, prática e interativa** os riscos e impactos de falhas em sistemas críticos.  
@@ -16,7 +14,7 @@ Com isso, o usuário aprende jogando e entende:
 - A importância da segurança e testes no desenvolvimento.  
 - O papel dos profissionais de tecnologia na prevenção de acidentes.  
 
----
+----
 
 ## 📅 Plano de Ação
 O desenvolvimento está sendo feito de forma colaborativa e dinâmica, com cada integrante responsável por uma parte essencial:
@@ -28,18 +26,18 @@ O desenvolvimento está sendo feito de forma colaborativa e dinâmica, com cada 
 - **Segurança e Testes:** Implementação de regras e validações para evitar falhas críticas.  
 - **Coordenação:** Acompanhamento geral para garantir que todas as partes se integrem corretamente.  
 
----
+----
 
-### 🚀 Passo a Passo para Executar o Projeto
+## 🚀 Passo a Passo para Executar o Projeto
 
-## 1. Clonar o repositório
+### 1. Clonar o repositório
 Baixe o código do projeto para sua máquina.  
 Abra o terminal e execute:```bash
 git clone https://github.com/seuusuario/theraq.git
 cd theraq
 
 --
-## 2. Instalar dependências
+### 2. Instalar dependências
 Prepare o ambiente com os pacotes necessários.
 Verifique se possui Node.js instalado
 Execute: npm install
@@ -47,7 +45,7 @@ Execute: npm install
 Aguarde a instalação completar
 
 --
-## 3. Configurar chave da API
+### 3. Configurar chave da API
 Segurança
 Adicione a chave para comunicação segura com o Back-end.
 
@@ -58,14 +56,14 @@ Adicione: API_KEY=sua_chave_aqui
 No código, use: const apiKey = process.env.API_KEY;
 
 --
-## 4. Executar servidor local
+### 4. Executar servidor local
 Rodando
 Inicie o projeto para testes em ambiente local.
 Execute: npm start
 Aguarde o servidor inicializar
 Abra o navegador em http://localhost:3000
 --
-## 5. Testar funcionalidades
+### 5. Testar funcionalidades
 Verifique se o quiz e a integração estão funcionando.
 Navegue pelas páginas
 Responda às perguntas do quiz
