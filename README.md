@@ -1,5 +1,5 @@
 # 🧩 TheraQ
-##----
+----
 ## 📖 Sobre o Projeto
 O **TheraQ** é um site de quiz interativo voltado para tecnologia, com foco em sistemas críticos.  
 Ele foi inspirado no caso **Therac-25**, mostrando como falhas de software, hardware e interface podem gerar consequências graves.  
