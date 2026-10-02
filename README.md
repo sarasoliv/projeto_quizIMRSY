@@ -6,7 +6,11 @@ Ele foi inspirado no caso **Therac-25**, mostrando como falhas de software, hard
 A ideia é transformar o aprendizado em uma experiência prática e envolvente, conscientizando sobre a importância da **segurança no desenvolvimento de sistemas**.
 
 ----
+## 🎯 Problema
+Muitas vezes não se percebe que erros em **software**, **hardware** ou na **interface** podem comprometer sistemas críticos, como equipamentos médicos.  
+Essas falhas podem colocar vidas em risco, e o desconhecimento sobre elas dificulta a prevenção.
 
+---
 ## 🎯 Objetivo
 O quiz busca explicar de forma **simples, prática e interativa** os riscos e impactos de falhas em sistemas críticos.  
 Com isso, o usuário aprende jogando e entende:
