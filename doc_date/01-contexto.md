@@ -49,13 +49,13 @@ Cada RD01–RD11 e cada RA01–RA07 entra numa linha. Não deixem código de for
 | --- | --- | --- |
 | RA01 | O sistema permite o usuário se cadastrar. | Requisito funcional |
 | RA02 | É feita uma somatória da pontuação ao final de cada desafio. | Requisito funcional |
-| RA03 | Ao final do quiz é exibido as questões com erros e acertos. | Requisitos Funcionais |
+| RA03 | Ao finalizar o questionário o sistema entrega a pontuação. | Requisitos Funcionais |
 | RA01 | A IA do quiz gera as perguntas automaticamente a cada novo questionário aberto. | Requisito não funcional |
-| RA02 | O sistema gera 10 perguntas a cada questionário iniciado. | Requisito não funcional |
-| RA03 | Ao finalizar o questionário o sistema entrega a pontuação. | Requisito não funcional |
+| RA02 | O sistema gera no mínimo 5 perguntas a cada questionário iniciado. | Requisito não funcional |
+| RA03 | O quiz tem acessibilidade para que todos consigam ter uma boa experiência ao utilizar| Requisito não funcional |
 | RA04 | É possível selecionar o nível de dificuldade, sendo fácil, médio e difícil. | Requisito não funcional |
 | RD01 | O sistema não armazena as respostas das questões após encerrar o quiz  | Regra de Negócios |
-| RD02 | A ia gera as perguntas aleatóriamente baseada em um contexto histórico| Regra de Negócios |
+| RD02 | A IA gera as perguntas aleatóriamente baseada em fontes específicas| Regra de Negócios |
 | RD03 | O sistema possui sistema de acessibilidade | Regra de Negócios |
 | RD04 | O banco de dados guarda a pontuação e o nome do usuário que a fez | Regra de Negócios |
 | RD05 | O cadastro será feito através do nome de usuário | Regra de Negócios |
