@@ -22,12 +22,12 @@ Também haverá um Banco de Dados destinado ao armazenamento da pontuação tota
 | Guarda a pontuação do usuário | Salva usernames iguais |
 | Ranqueia de forma decrescente a pontuação total do usuário | Armazena os dados de todas as questões de uma vez |
 
-| Usuário | O que faz |
-| --- | --- |
-| Jogador | Responde às perguntas do quiz e personaliza a dificuldade e quantas perguntas seu quiz tem |
-| Desenvolvedor | Quem gerencia o servidor do quiz e faz atualizações conforme necessidade a partir de sugestões de usuários. |
-| Tester | Faz o teste de mesa virtual e reporta bugs. |
-| Analista de informações | Confere a veracidade das perguntas e respostas. |
+| Usuário | O que faz | Acessos
+| --- | --- | --- |
+| Jogador | Responde às perguntas do quiz e personaliza a dificuldade e quantas perguntas seu quiz tem | Acesso apenas a interface do quiz para jogar |
+| Desenvolvedor | Quem gerencia o servidor do quiz e faz atualizações conforme necessidade a partir de sugestões de usuários. | Acesso aos códigos por tras do quiz como o back-end e fornt-end |
+| Tester | Faz o teste de mesa virtual e reporta bugs. | Acesso a interface do quiz para jogar como um usuario comum mas tendo acesso a tabela de questoes e tabela em que mostra as respostas que os jogadores deram |
+| Analista de informações | Confere a veracidade das perguntas e respostas. | Acesso a tabela em que se é armazenado temporariamente as perguntas |
 
 ## 2. Minimundo
 
