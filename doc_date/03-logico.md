@@ -22,7 +22,16 @@ Dependências no formato `determinante → dependente`, com o requisito que sust
 
 | ID | Dependência | Requisito |
 | --- | --- | --- |
-| DF1 | | |
+| DF1  | id_usuario → nome, email     | Cada usuário é identificado unicamente por seu ID.                        |
+| DF2  | id_quiz → titulo, descricao  | Cada quiz tem título e descrição únicos para seu identificador.           |
+| DF3  | id_pergunta → enunciado      | O enunciado depende apenas da pergunta, não do quiz.                      |
+| DF4  | id_resposta → texto, correta | Cada resposta é identificada pelo seu ID e contém o texto e se é correta. |
+| DF5  | (id_usuario, id_quiz) → data_participacao | A participação é identificada pela combinação usuário + quiz. |
+
+ Todas as tabelas estão em **3FN**:  
+- Não há atributos multivalorados.  
+- Não há dependências transitivas.  
+- Cada atributo depende apenas da chave primária da tabela.  
 
 | Forma | Por que o esquema atende | Tabela em que isso aparece |
 | --- | --- | --- |
