@@ -1,5 +1,10 @@
 CREATE DATABASE projeto_quiz_IMRSY;
 
+create table Cadastro_usuario(
+	id_usuário	Serial PRIMARY KEY NOT NULL,
+	nome		varchar(50)
+);
+
 CREATE TABLE tabela_ranking(
 	id_jogador SERIAL PRIMARY KEY,
 	nome_jogador VARCHAR(50) NOT NULL,
@@ -19,10 +24,6 @@ create table Questoes(
 	Resposta_correta	varchar(1) not null
 );
 
-create table Cadastro_usuario(
-	id_usuário	Serial PRIMARY KEY NOT NULL,
-	nome		varchar(50)
-);
 
 create table Pontuacao(
 	id				 serial primary key,
