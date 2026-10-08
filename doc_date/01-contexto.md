@@ -12,26 +12,22 @@ O quiz tem como funções permitir que o usuário personalize a quantidade e a d
 
 Também haverá um Banco de Dados destinado ao armazenamento da pontuação total de cada jogador por partida, com as pontuações separadas por nível de dificuldade. A partir desses dados, será possível gerar um ranking, organizado do jogador com maior pontuação para o jogador com menor pontuação.
 
-
 ## Escopo 
 
 | O banco faz | O banco não faz |
 | --- | --- |
 | Armazena dados do usuário ao se cadastrarem | Exclui os dados de cadastro |
-| Bloqueia alteração das informações do perfil | Armazena credênciais de login |
+| Bloqueia alteração das informações do perfil | Armazena credenciais de login |
 | Guarda as perguntas e respostas automaticamente | Guarda as respostas do quiz por tempo ilimitado |
-| Guarda a pontuação do usuário | salva usernames iguais. |
-| Ranqueia de forma decrescente a pontuação total do usuário | Armazena os dados de todas as questões de uma vez.|
-
-
+| Guarda a pontuação do usuário | Salva usernames iguais |
+| Ranqueia de forma decrescente a pontuação total do usuário | Armazena os dados de todas as questões de uma vez |
 
 | Usuário | O que faz |
 | --- | --- |
-| Jogador | Responde as perguntas do quiz e personaliza a dificuldade e quantas perguntas seu quiz tem |
-| Desenvolvedor | Quem gerência o servidor do quiz e faz atualizações conforme necessidade a partir de sugestões de usuários. |
+| Jogador | Responde às perguntas do quiz e personaliza a dificuldade e quantas perguntas seu quiz tem |
+| Desenvolvedor | Quem gerencia o servidor do quiz e faz atualizações conforme necessidade a partir de sugestões de usuários. |
 | Tester | Faz o teste de mesa virtual e reporta bugs. |
 | Analista de informações | Confere a veracidade das perguntas e respostas. |
-
 
 ## 2. Minimundo
 
@@ -39,26 +35,19 @@ Somos estudantes da área de tecnologia e gostaríamos que você criasse um quiz
 
 Gostaria que o quiz tivesse recursos de acessibilidade e sons para quando o usuário acertar ou errar, semelhantes aos utilizados em programas de perguntas e respostas, como o antigo jogo de perguntas do Silvio Santos. A interface deve ser intuitiva, permitindo que o usuário tenha clareza sobre o que está fazendo em cada etapa do quiz. Além disso, quero que haja uma limitação das fontes utilizadas pela IA responsável pela criação das perguntas, permitindo apenas fontes confiáveis e previamente definidas como referência, evitando fontes suspeitas ou informações sem comprovação para reduzir a possibilidade de erros na criação das perguntas. Para o desenvolvimento do projeto, deverão ser utilizadas apenas as linguagens **JavaScript (JS), C, HTML e CSS**, sem a utilização de frameworks. O banco de dados deverá utilizar **PostgreSQL como SGBD**, sendo responsável pelo armazenamento das informações necessárias para o funcionamento do sistema, como usuários, perguntas, respostas, pontuações e ranking.
 
-> 
-
 ## 3. Requisitos e regras de negócio
-
-Cada RD01–RD11 e cada RA01–RA07 entra numa linha. Não deixem código de fora.
 
 | Código | Texto do requisito | Tipo |
 | --- | --- | --- |
-| RA01 | O sistema permite o usuário se cadastrar. | Requisito funcional |
+| RA01 | O sistema permite ao usuário se cadastrar. | Requisito funcional |
 | RA02 | É feita uma somatória da pontuação ao final de cada desafio. | Requisito funcional |
-| RA03 | Ao finalizar o questionário o sistema entrega a pontuação. | Requisitos Funcionais |
-| RA01 | A IA do quiz gera as perguntas automaticamente a cada novo questionário aberto. | Requisito não funcional |
-| RA02 | O sistema gera no mínimo 5 perguntas a cada questionário iniciado. | Requisito não funcional |
-| RA03 | É apresentado a resposta logo após o usuário escolher sua resposta á pergunta feita | Requisito não funcional |
-| RA04 | É possível selecionar o nível de dificuldade, sendo fácil, médio e difícil. | Requisito não funcional |
-| RD01 | O sistema não armazena as perguntas das questões após encerrar o quiz | Regra de Negócios |
-| RD02 | A IA gera as perguntas aleatóriamente baseada em fontes específicas| Regra de Negócios |
-| RD03 | O sistema possui sistema de acessibilidade | Regra de Negócios |
-| RD04 | O banco de dados guarda a pontuação e o nome do usuário que a fez | Regra de Negócios |
-| RD05 | O cadastro será feito através do nome de usuário | Regra de Negócios |
-
-
-Não funcional inclui, no mínimo, o SGBD e a integridade (o que não pode duplicar nem ficar nulo).
+| RA03 | Ao finalizar o questionário, o sistema entrega a pontuação. | Requisito funcional |
+| RA04 | A resposta é apresentada logo após o usuário escolher sua opção à pergunta feita. | Requisito funcional |
+| RA05 | É possível selecionar o nível de dificuldade, sendo fácil, médio e difícil. | Requisito funcional |
+| RA06 | A IA do quiz gera as perguntas automaticamente a cada novo questionário aberto. | Requisito não funcional |
+| RA07 | O sistema gera no mínimo 5 perguntas a cada questionário iniciado. | Requisito não funcional |
+| RD01 | O sistema não armazena as perguntas das questões após encerrar o quiz. | Regra de negócios |
+| RD02 | A IA gera as perguntas aleatoriamente baseada em fontes específicas. | Regra de negócios |
+| RD03 | O sistema possui recursos de acessibilidade. | Regra de negócios |
+| RD04 | O banco de dados guarda a pontuação e o nome do usuário que a fez. | Regra de negócios |
+| RD05 | O cadastro será feito através do nome de usuário. | Regra de negócios |
