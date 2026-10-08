@@ -9,7 +9,6 @@ O desenho parte do modelo conceitual e mostra tabelas, colunas, chave primária 
 | Relacionamento no DER | Cardinalidade | Vira | Onde fica a FK ou a tabela associativa |
 | --- | --- | --- | --- |
 | | 1:N / N:N / 1:1 | FK no lado N / tabela associativa | |
-|--------------------------|---------------|----------------|-------------------------------------|
 | Usuário – Quiz           | 1:N           | FK             | FK em Quiz (id_usuario)             |
 | Quiz – Pergunta          | 1:N           | FK             | FK em Pergunta (id_quiz)            |
 | Pergunta – Resposta      | 1:N           | FK             | FK em Resposta (id_pergunta)        |
