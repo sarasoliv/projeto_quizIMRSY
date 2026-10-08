@@ -32,6 +32,7 @@ Dependências no formato `determinante → dependente`, com o requisito que sust
 - Não há atributos multivalorados.  
 - Não há dependências transitivas.  
 - Cada atributo depende apenas da chave primária da tabela.  
+---
 
 | Forma | Por que o esquema atende | Tabela em que isso aparece |
 | --- | --- | --- |
