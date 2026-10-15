@@ -3,7 +3,8 @@ CREATE DATABASE projeto_quiz_IMRSY;
 
 create table Cadastro_usuario(
 	id_usuario	Serial PRIMARY KEY NOT NULL,
-	nome		varchar(50)
+	nome		varchar(50) not null,
+	email		varchar(100) unique
 );
 
 CREATE TABLE tabela_ranking(
@@ -16,44 +17,38 @@ CREATE TABLE tabela_ranking(
 SELECT * FROM tabela_ranking;
 
 create table Questoes(
-	id					serial primary key, 
-	Q_numero_questao	int unique,
-	Questao				text,
-	Enunciado			text,
-	Opcao_a				text,
-	Opcao_b				text,
-	Opcao_c				text,
-	Opcao_d				text,
+	id_questao			serial primary key, 
+	Enunciado			text not null,
+	Opcao_a				text not null,
+	Opcao_b				text not null,
+	Opcao_c				text not null,
+	Opcao_d				text not null,
+	Opcao_e				text not null,
 	Resposta_correta	varchar(1) not null
 );
 
-
 create table Pontuacao(
-	id				 serial primary key,
-	usuario_id		 int not null unique,
-	pontuacao		 int,
-	total_questoes	 int,
-	P_numero_questao integer,
-constraint pontuacaofk foreign KEY (P_numero_questao) references Questoes(Q_numero_questao)
+	id_pontuacao	 			 serial primary key,
+	usuario_id					 int not null unique,
+	pontos_totais	 			 int default 0,
+	questoes_respondidas_total	 int default 0,
+constraint fk_pontuacao_usuario foreign KEY (usuario_id) references Cadastro_usuario(id_usuario)
 	
 );
 
 create table Questoes_respondidas(
-	id					serial PRIMARY KEY 	,
+	id_resposta 		serial PRIMARY KEY 	,
 	usuario_id			int not null,
-	pergunta_id			int,
+	questao_id			int not null,
 	resposta_usuario	varchar(1) not null,
-	respondida			boolean,
-	Q_numero_questaofk  integer,
-	usuario_idfk		integer,
+	acerto  			boolean not null, 
+	data_resposta		timestamp default current_timestamp,
 	
-constraint questao_respondida_fk FOREIGN KEY(Q_numero_questaofk)
-	references Questoes(Q_numero_questao),
-constraint respondida_usuario_fk FOREIGN KEY(usuario_id)
-	references Pontuacao(usuario_id)
+constraint fk_usuario FOREIGN KEY(usuario_id) references Cadastro_usuario(id_usuario) on delete cascade,
+constraint fk_questao FOREIGN KEY(questao_id) references Questoes(id_questao) on delete cascade
 );
 
-INSERT INTO Questoes (Questao, Enunciado, Opcao_a, Opcao_b, Opcao_c, Opcao_d, Resposta_correta) VALUES
+INSERT INTO Questoes (Enunciado, Opcao_a, Opcao_b, Opcao_c, Opcao_d, Opcao_e, Resposta_correta) VALUES
 ('O que era exatamente o Therac-5 e qual era a sua finalidade primária na medicina?', 'Um sistema de diagnóstico por imagem para detecção de tumores.', 'Um acelerador linear de elétrons utilizado em radioterapia para destruição de tecidos cancerígenos.', 'Um equipamento de ressonância magnética de alta precisão.', 'Um tomógrafo computadorizado com emissão de pósitrons (PET-Scan).', 'Um robô cirúrgico para procedimentos minimamente invasivos.','B'),
 ('Qual foi a empresa canadense responsável pelo projeto e fabricação do Therac-5?', 'General Electric Medical Systems Canada.', 'Siemens Healthineers Canada.', 'Bombardier Medical Robotics.', 'Atomic Energy of Canada Limited (AECL).', 'Philips Medical Systems Canada.', 'D'),
 ('Entre quais anos ocorreram os acidentes graves de sobredosagem de radiação documentados?', '985 e 98.', '95 e 98.', '99 e 99.', '998 e 00.', '980 e 98.', 'A'),
