@@ -4,7 +4,6 @@ CREATE DATABASE projeto_quiz_IMRSY;
 create table Cadastro_usuario(
 	id_usuario	Serial PRIMARY KEY NOT NULL,
 	nome		varchar(50) not null,
-	email		varchar(100) unique
 );
 
 CREATE TABLE tabela_ranking(
