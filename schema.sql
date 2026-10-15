@@ -27,15 +27,6 @@ create table Questoes(
 	Resposta_correta	varchar(1) not null
 );
 
-create table Pontuacao(
-	id_pontuacao	 			 serial primary key,
-	usuario_id					 int not null unique,
-	pontos_totais	 			 int default 0,
-	questoes_respondidas_total	 int default 0,
-constraint fk_pontuacao_usuario foreign KEY (usuario_id) references Cadastro_usuario(id_usuario)
-	
-);
-
 create table Questoes_respondidas(
 	id_resposta 		serial PRIMARY KEY 	,
 	usuario_id			int not null,
