@@ -9,7 +9,7 @@ Identifiquem uma vez, neste arquivo copiado para o repositório:
 | ----------- | ------------- |
 | Equipe      |      2         |
 | Integrantes | isabella, rodrygo, sara, yasmin |               |
-| Repositório |               |
+| Repositório | https://github.com/sarasoliv/theraq_projeto_quiz              |
 | Data        |      01/08/2026         |
 
 
