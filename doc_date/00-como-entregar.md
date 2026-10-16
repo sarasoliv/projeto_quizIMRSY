@@ -7,8 +7,8 @@ Identifiquem uma vez, neste arquivo copiado para o repositório:
 
 | Campo       | Preenchimento |
 | ----------- | ------------- |
-| Equipe      |               |
-| Integrantes |               |
+| Equipe      |      2         |
+| Integrantes | isabella, rodrygo, sara, yasmin |               |
 | Repositório |               |
 | Data        |               |
 
