@@ -4,7 +4,7 @@ Marco M1. A entrega deste passo é o modelo conceitual: o desenho em `entregas/0
 
 É um DER na notação de Chen, no brModelo ou no Visual Paradigm Online. Entidades, atributos, relacionamentos e cardinalidades. Ainda não aparecem tabela, chave estrangeira nem tipo de coluna: isso é o modelo lógico, no passo 5.
 
-Consulte o documento completo [clicando aqui](./[02_conceitual_isabella_rodrygo_sara_yasmin.pdf])
+[Baixar DER em PDF] [02_conceitual_isabella_rodrygo_sara_yasmin.pdf](https://github.com/user-attachments/files/33519047/02_conceitual_isabella_rodrygo_sara_yasmin.pdf)
 
 
 ## Entidades
