@@ -10,7 +10,7 @@ Identifiquem uma vez, neste arquivo copiado para o repositório:
 | Equipe      |      2         |
 | Integrantes | isabella, rodrygo, sara, yasmin |               |
 | Repositório |               |
-| Data        |               |
+| Data        |      01/08/2026         |
 
 
 ## Regras
