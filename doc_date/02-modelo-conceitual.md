@@ -11,7 +11,10 @@ Marco M1. A entrega deste passo é o modelo conceitual: o desenho em `entregas/0
 
 | Entidade | Atributos | Identificador |
 | --- | --- | --- |
-| | | |
+| Ranking  | id_ranking, pontuacao_jogador  | id_ranking  |
+| Questões | Enunciado, id_questoes, Opcao_a, Opcao_b, Opcao_c, Opcao_d, Opcao_e, Resposta_correta | id_questoes |
+| Cadastro_usuario | id_usuario, nome | id_usuario |
+| Questoes_respondidas | id_q_respostas, resposta_usuario, acerto, data_resposta | id_q_respostas |
 
 ## Relacionamentos
 
@@ -19,6 +22,9 @@ Uma frase por linha, ligada a um requisito. Cardinalidade dos dois lados, mínim
 
 | Relacionamento | Cardinalidade | Justificativa | Requisito |
 | --- | --- | --- | --- |
-| | | | RD__ |
+| Possui | (1,N) , (1,N) | Um ranking pode conter no mínimo 1 ou varias questoes_respondidas e tanto cadastro_usuario quanto questoes_respondidas podem ter 1 ou varios rankies | Regras de negócios |
+| Solucionar | (1,N) , (0,N) | questoes_respondidas pode ter nenhum ou varios questoes_respondidas cadastro_usuario e cadastro_usuario pode ter no minimo uma ou várias questoes_respondidas | Regras de Negócios |
+| Conter | (1,N) , (1,N) | questoes_respondidas podem ter no mínimo 1 ou várias Questões e Questões podem ter no mínimo 1 ou várias questoes_respondidas | Requisitos funcionais |
+
 
 O diagrama e esta tabela descrevem o mesmo modelo. Toda entidade do desenho está na tabela.
